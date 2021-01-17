@@ -1,0 +1,138 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+
+.row{
+	margin-bottom:.5em;
+}
+.toast {
+	max-width: 100%;
+}
+
+.tab-fade-in {
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	-moz-animation: fadeIn ease 1s;
+	-o-animation: fadeIn ease 1s;
+	-ms-animation: fadeIn ease 1s;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+#home {
+	overflow: visible;
+}
+	#siteWrapper {
+	height: 100%;
+	max-width: 960px;
+	margin: 0,auto;
+	background: white;
+	border-radius: 15px;
+	display: block;
+	overflow: hidden;
+}
+
+#site {
+	background: #bdc3c7;
+	height: 100%;
+	max-width: 960px;
+	margin: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	display: block;
+	overflow: auto;
+}
+
+#root {
+	overflow: auto;
+}
+html, body, #root, .App {
+	background: #bdc3c7;
+}
+html {
+	height: 95vh;
+	overflow: auto;
+}
+.nav-item .active.nav-link {
+	background: #0088CC;
+	color: white;
+	border-color: #0088CC;
+}
+.maxButton {
+	background-color: #0088CC !important;
+	
+}
+.minButton {
+	background-color: #0088CC !important;
+}
+tr:hover {
+	background-color: lightgray;
+}
+input:invalid {
+	background: #ffcccB;
+}
+button{
+	margin-left:.1em;
+}
+.toast{
+	overflow: visible !important;
+}
